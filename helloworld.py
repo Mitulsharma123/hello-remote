@@ -1,2 +1,4 @@
 import sys
-print("hello {}!".format(sys.argv[1]))
+
+name = sys.argv[1]
+print("hello there {}!".format(sys.argv[1]))
